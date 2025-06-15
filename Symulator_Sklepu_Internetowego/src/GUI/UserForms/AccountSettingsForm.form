@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.UserForms.AccountSettingsForm">
+  <grid id="27dc6" binding="panel1" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="572" height="482"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="e8d6d" layout-manager="GridLayoutManager" row-count="5" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="f554b" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="100"/>
+                <preferred-size width="-1" height="100"/>
+                <maximum-size width="-1" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-4575437"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="dca08" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="6" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-10000537"/>
+                  <doubleBuffered value="true"/>
+                  <enabled value="true"/>
+                  <focusTraversalPolicyProvider value="false"/>
+                  <focusable value="true"/>
+                  <font name="Eras Bold ITC" size="36" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="BookHaven"/>
+                </properties>
+              </component>
+              <component id="646cb" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="6" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-2630429"/>
+                  <enabled value="true"/>
+                  <foreground color="-196618"/>
+                  <icon value="figures/book.png"/>
+                  <text value=""/>
+                </properties>
+                <clientProperties>
+                  <html.disable class="java.lang.Boolean" value="false"/>
+                </clientProperties>
+              </component>
+            </children>
+          </grid>
+          <grid id="e62f5" layout-manager="GridLayoutManager" row-count="7" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="28fc7" class="javax.swing.JTextField" binding="firstNameField">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="220" height="-1"/>
+                    <preferred-size width="220" height="-1"/>
+                    <maximum-size width="220" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="20f70" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Imię:"/>
+                </properties>
+              </component>
+              <component id="e5262" class="javax.swing.JTextField" binding="lastNameField">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="220" height="-1"/>
+                    <preferred-size width="220" height="-1"/>
+                    <maximum-size width="220" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="3be3f" class="javax.swing.JTextField" binding="cityField">
+                <constraints>
+                  <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="220" height="-1"/>
+                    <preferred-size width="220" height="-1"/>
+                    <maximum-size width="220" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="44e6b" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Nazwisko:"/>
+                </properties>
+              </component>
+              <component id="a3a89" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Miasto:"/>
+                </properties>
+              </component>
+              <component id="f90d8" class="javax.swing.JTextField" binding="postalCodeField">
+                <constraints>
+                  <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="220" height="-1"/>
+                    <preferred-size width="220" height="-1"/>
+                    <maximum-size width="220" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="e5312" class="javax.swing.JTextField" binding="AddressField">
+                <constraints>
+                  <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="220" height="-1"/>
+                    <preferred-size width="220" height="-1"/>
+                    <maximum-size width="220" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="b2bf3" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Kod pocztowy:"/>
+                </properties>
+              </component>
+              <component id="edc35" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Adres:"/>
+                </properties>
+              </component>
+              <component id="c42a3" class="javax.swing.JTextField" binding="apartmentNumberField">
+                <constraints>
+                  <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="220" height="-1"/>
+                    <preferred-size width="220" height="-1"/>
+                    <maximum-size width="220" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="734f2" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Numer Lokalu:"/>
+                </properties>
+              </component>
+              <component id="27a2a" class="javax.swing.JTextField" binding="phoneNumberField">
+                <constraints>
+                  <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="220" height="-1"/>
+                    <preferred-size width="220" height="-1"/>
+                    <maximum-size width="220" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties/>
+              </component>
+              <component id="4e95a" class="javax.swing.JLabel">
+                <constraints>
+                  <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Numer telefonu:"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="7fb1c" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="c37f2" class="javax.swing.JLabel" binding="usernameLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="dbfd4" class="javax.swing.JLabel" binding="emailLabel">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Label"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="c6e73" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="ba0a2" class="javax.swing.JButton" binding="UpdateButton">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="180" height="-1"/>
+                    <preferred-size width="180" height="-1"/>
+                    <maximum-size width="180" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4575437"/>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Zakutalizuj dane"/>
+                </properties>
+              </component>
+              <component id="1fb5a" class="javax.swing.JButton" binding="exitButton">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                    <minimum-size width="180" height="-1"/>
+                    <preferred-size width="180" height="-1"/>
+                    <maximum-size width="180" height="-1"/>
+                  </grid>
+                </constraints>
+                <properties>
+                  <background color="-4575437"/>
+                  <font name="JetBrains Mono" size="14" style="1"/>
+                  <foreground color="-16777216"/>
+                  <text value="Zamknij"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="4eb81" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="14" style="1"/>
+              <foreground color="-16777216"/>
+              <text value="Zaktualizuj dane do przyszłych zamówień:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
