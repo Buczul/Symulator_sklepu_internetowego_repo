@@ -1,0 +1,1 @@
+# Symulator_sklepu_internetowego_repo
