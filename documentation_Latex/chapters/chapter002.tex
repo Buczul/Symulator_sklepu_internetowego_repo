@@ -1,0 +1,51 @@
+\chapter{Opis założeń projektu}
+\label{cha:założenia}
+
+\section{Założenia projektu}
+\label{sec:zalozenia}
+
+Projekt to symulator sklepu internetowego "BookHaven" specjalizującego się w sprzedaży książek w różnych formatach: książek fizycznych, ebooków oraz audiobooków.
+Głównym celem aplikacji jest odzwierciedlenie pełnego, realnego procesu korzystania ze sklepu internetowego, od rejestracji i logowania, po przeglądanie
+oferty i składanie zamówień po stronie klienta, a także możliwość zarządzania produktami, zamówieniami i użytkownikami po stronie administratora.
+
+
+
+% ------------------------
+\section{Wymaganie funkcjonalne}
+\label{sec:wymagania funkconajle}
+
+
+Zarządanie użytkownikami musi obejmować rejestrację nowych użytkowników oraz logowanie na konto. 
+Każdy użytkownik ma przypisaną rolę, która określa jakie działania będzie mógł on podejmować w aplikacji.
+Administrator ma mieć możliwość usuwania istniejących użytkowników oraz dodawania nowych administratorów,
+natomiast po stronie klienta dostępna jest opcja aktualizacji danych potrzebnych do wysyłki. 
+
+Klient może przeglądać całą ofertę, ma dostęp do filtrowania oraz sortowania produktów w ofercie oraz dodawania ich do koszyka,
+w którym można przeglądać wybrane produkty, usunąć je z niego, oraz złożyć zamówienie.
+
+Administrator ma mieć narzędzia pozwalające na zarządzanie produktami: dodawanie, edycja i usuwanie.
+
+Proste zarządanie zamówieniami również musi odbywać się po stronie administratora. Dostępne ma być przeglądanie wszystkich zamówień, gdzie widnieją
+dane zamawiającego oraz produkty które zamówił, dodatkowo, bezpośrednio w aplikacji, administrator ma możliwość zmiany statusu zamówienia.
+
+Aplikacja obsługuje możliwość zalogowania się jako gość, gdzie nie ma potrzeby logowania, natomiast ma on
+mieć wówczas dostęp jedynie do przeglądania oferty.
+
+
+%---------------------------------------------------------------------------
+
+\section{Wymaganie niefunkcjonalne}
+\label{sec:wymagania niefunkcjonalne}
+
+Istotna jest wydajność aplikacji, krótki czas ładowania poszczególnych stron aplikacji, a także bezproblemowa obsługa
+rozbudowanej bazy produktów i użytkowników.
+
+Niezawodność projektu powinna być zapewniona przez obsługę wyjątków dla, możliwie wszystkich, funkcjonalości aplikacji oraz 
+informowanie użytkownika o jego błędnych działaniach.
+
+Graficzny interfejs użytkownika musi być prosty i intuicyjy. Poszczególne panele aplikacji powinny być przejyżste, tak aby
+klienci, goście i administratorzy nie mieli problemu z nawigowaniem po nich. Oprócz tego interfejst graficzny ma wyglądać estetycznie, każda strona 
+aplikacji nie powinna odbiegać wizualnie od pozostałych dzięki zostosowaniu wszędzie jednolitego białego tła oraz banera w kolorze \texttt{BA2F33} z nazwą sklepu.
+
+Możliwa ma być również skalowalność aplikacji, obejmująca zwiększającą się bazę produktów, użytkowników i zamówień, a także możliwość późniejszej
+rozbudowy systemu o dodatkowe funkcjonalność, między innymi dodanie nowych metod płatności lub implementacja przechowywania produktów z koszyka w bazie.
