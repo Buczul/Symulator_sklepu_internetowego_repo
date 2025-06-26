@@ -1,6 +1,6 @@
-PWD c:\Users\Administrator\Desktop\documentation_Latex
+PWD c:\Users\Administrator\Desktop\Nowy folder (4)\documentation_Latex
 INPUT C:\Users\Administrator\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\Administrator\Desktop\documentation_Latex\praca.tex
+INPUT c:\Users\Administrator\Desktop\Nowy folder (4)\documentation_Latex\praca.tex
 OUTPUT praca.log
 INPUT .\urdpl.cls
 INPUT urdpl.cls

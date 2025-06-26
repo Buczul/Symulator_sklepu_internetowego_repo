@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.14)  26 JUN 2025 21:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.14)  26 JUN 2025 22:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/Administrator/Desktop/documentation_Latex/praca.tex
-(c:/Users/Administrator/Desktop/documentation_Latex/praca.tex
+**"c:/Users/Administrator/Desktop/Nowy folder (4)/documentation_Latex/praca.tex"
+(c:/Users/Administrator/Desktop/Nowy folder (4)/documentation_Latex/praca.tex
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
 (urdpl.cls *** [urdpl.cls] --- (ZG, EZ) v1.0 <19.09.2024> ***
@@ -1100,14 +1100,14 @@ Package rerunfilecheck Info: File `praca.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  23941 strings out of 468224
- 449403 string characters out of 5442995
+ 450151 string characters out of 5442995
  1513348 words of memory out of 5000000
  51764 multiletter control sequences out of 15000+600000
  692154 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 88i,13n,94p,593b,2849s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,13n,94p,611b,2849s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrro8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on praca.pdf (24 pages, 964699 bytes).
+Output written on praca.pdf (24 pages, 964886 bytes).
 PDF statistics:
  668 PDF objects out of 1000 (max. 8388607)
  276 named destinations out of 1000 (max. 500000)
